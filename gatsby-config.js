@@ -4,6 +4,7 @@ module.exports = {
     description: `Making the best family foto`,
     author: `koodlaty`,
   },
+  pathPrefix: "/wievviora",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
