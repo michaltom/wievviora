@@ -21,6 +21,7 @@ const NavWrapper = styled.nav`
   font-weight: light;
   padding: 0 4rem;
   z-index: 9999;
+  box-shadow: 0 4px 8px hsla(0, 4%, 14%, 100%);
 `
 
 const NavigationItems = styled.ul`
@@ -63,13 +64,14 @@ const Navigation = () => (
     </Logo>
     <NavigationItems>
       <NavigationItem>
-        <Link to="/">O mnie</Link>
+        {/* <a href="#about">O mnie</a> */}
+        <Link to="/#about">O mnie</Link>
       </NavigationItem>
       <NavigationItem>
-        <Link to="/gallery">Portfolio</Link>
+        <Link to="/#portfolio">Portfolio</Link>
       </NavigationItem>
       <NavigationItem>
-        <Link to="/">Kontakt</Link>
+        <Link to="/#contact">Kontakt</Link>
       </NavigationItem>
     </NavigationItems>
   </NavWrapper>

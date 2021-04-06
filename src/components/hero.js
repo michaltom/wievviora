@@ -24,7 +24,6 @@ const Hero = () => {
       }
     }
   `)
-  console.log(data.allFile.edges[0].node.childImageSharp.fluid)
   return (
     <Wrapper>
       {/* <HeroTitle>Wievviora</HeroTitle> */}

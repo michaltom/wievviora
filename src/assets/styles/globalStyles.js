@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
     html{
         box-sizing: border-box;
         background-color: hsla(0, 0%, 5%, 100%);
+        scroll-behavior: smooth;
     }
     *,
     *::before,
@@ -14,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         margin: 0;
         padding: 0px 0;
-        font-family: "Montserrat" ,monospace
+        font-family: "Montserrat" ,monospace;
     }
 
     button{
